@@ -1,1 +1,1 @@
-# fuck-the-kt-ucloud-storage
+# kt-ucloud-storage-sucks
