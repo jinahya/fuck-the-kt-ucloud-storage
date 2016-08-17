@@ -3,11 +3,11 @@
 ## verify
 ### account
 ```
-mvn -DauthUrl=... -DauthUser=... -DauthKey=...
+mvn -DauthUrl=... -DauthUser=... -DauthKey=... verify
 ```
 ### reseller
 ```
-mvn -DauthUrl=... -DauthUser=<account>:<user> -DauthKey=<password>
+mvn -DauthUrl=... -DauthUser=<account>:<user> -DauthKey=<password> verify
 ```
 
 ## account
