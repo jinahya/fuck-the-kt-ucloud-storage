@@ -12,7 +12,9 @@ mvn -DauthUrl=... -DauthUser=<account>:<user> -DauthKey=<password>
 
 ## account
 
-### readAllContainers
+### `authenticateUser`
+
+### `readContainers`
 Reads all containers in `text/plain`, `application/xml`, `applicatoin/json`.
 
 ## reseller
