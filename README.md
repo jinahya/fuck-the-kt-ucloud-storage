@@ -26,7 +26,7 @@ Reads all containers using `limit`(`512`) and `marker`.
   * Break out on `204`.
 
 ### `readContainers`
-Reads containers in `text/plain`, `application/xml`, `applicatoin/json`.
+Reads containers in each [media types](##media types)`text/plain`, `application/xml`, `applicatoin/json`.
 * `GET` containers. Assert `200`, or `204`.
 
 ### `verifyContainer`
