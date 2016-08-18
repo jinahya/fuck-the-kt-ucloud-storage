@@ -21,22 +21,22 @@ Authenciates with `authUser` and `authKey`. It's annotated with `@BeforeMethod`.
 
 ## account
 
-### `readAllContainers`
+### readAllContainers
 Reads all containers using `limit`(`512`) and `marker`.
 * In a loop, `GET` containers. Assert `200`, or `204`.
   * Break out on `204`.
 
-### `readContainers`
+### readContainers
 Reads containers in each [media types](##media types).
 * `GET` containers. Assert `200`, or `204`.
 
-### `verifyContainer`
+### verifyContainer
 Updates(creates), reads, and deletes a container.
 * `PUT` a container. Assert `201`, or `202`.
 * `HEAD` the container. Assert `204`.
 * `DELETE` the container. Assert `204`.
 
-### `verifyObject`
+### verifyObject
 Updates(creates), reads, and deletes an object.
 * `PUT` a container. Assert `201`, or `202`.
 * `PUT` an object. Asert `201`, or `202`.
