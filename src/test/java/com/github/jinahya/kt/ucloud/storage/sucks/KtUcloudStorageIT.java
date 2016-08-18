@@ -134,6 +134,8 @@ public class KtUcloudStorageIT {
                 resellerUrl = protocol + "://" + authority + "/auth/v2/"
                               + resellerAccount;
                 logger.debug("resellerUrl: {}", resellerUrl);
+            } else {
+                resellerUrl = null;
             }
         } finally {
             connection.disconnect();
