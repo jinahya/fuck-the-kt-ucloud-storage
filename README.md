@@ -16,7 +16,7 @@ mvn -DauthUrl=... -DauthUser=<account>:<user> -DauthKey=<password> verify
 
 ## common
 
-### `authenticateUser`
+### authenticateUser
 Authenciates with `authUser` and `authKey`. It's annotated with `@BeforeMethod`.
 
 ## account
